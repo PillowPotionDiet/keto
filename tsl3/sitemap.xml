@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Main Landing Page -->
+  <url>
+    <loc>https://pillowpotion.com/</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/6-Products-3-1024x1024.webp</image:loc>
+      <image:title>PillowPotion Keto 6 Bottles Package</image:title>
+      <image:caption>Best Seller - 180 Days Supply of PillowPotion Keto</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/4-Products-4-1024x1024.webp</image:loc>
+      <image:title>PillowPotion Keto 4 Bottles Package</image:title>
+      <image:caption>Popular - 120 Days Supply of PillowPotion Keto</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/2x_-Keto-1-1024x1024.webp</image:loc>
+      <image:title>PillowPotion Keto 2 Bottles Package</image:title>
+      <image:caption>Basic Package - 60 Days Supply of PillowPotion Keto</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/tsl3_logo.webp</image:loc>
+      <image:title>PillowPotion Official Logo</image:title>
+      <image:caption>PillowPotion Keto Premium Supplement Brand</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Product Page -->
+  <url>
+    <loc>https://pillowpotion.com/website_code/go/</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- Main Landing Page - Primary Page for SEO -->
+  <url>
+    <loc>https://keto.pillowpotion.com/dtc/</loc>
+    <lastmod>2025-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Product Images -->
+    <image:image>
+      <image:loc>https://packages.pillowpotion.com/wp-content/uploads/2025/09/2x_-Keto-1-1024x1024.png</image:loc>
+      <image:title>PillowPotion Keto 2 Bottles Bundle</image:title>
+      <image:caption>PillowPotion Keto with BHB - Natural Weight Loss Supplement - 2 Bottles Bundle with Free Shipping</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/keto/3bottles.webp</image:loc>
+      <image:title>PillowPotion Keto 3 Bottles Bundle - Best Value</image:title>
+      <image:caption>Save more with the 3 bottles bundle of PillowPotion Keto weight loss supplement</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/keto/1bottle.webp</image:loc>
+      <image:title>PillowPotion Keto Single Bottle</image:title>
+      <image:caption>Try PillowPotion Keto with our single bottle option</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Index Page Alternative URL -->
+  <url>
+    <loc>https://keto.pillowpotion.com/dtc/index.html</loc>
+    <lastmod>2025-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Note: Upsell and downsell pages are excluded from sitemap as they have noindex directives -->
+  <!-- This prevents duplicate content issues and maintains proper funnel flow -->
+
+</urlset>

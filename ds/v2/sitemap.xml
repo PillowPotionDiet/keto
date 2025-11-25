@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Main TSL2 Page -->
+  <url>
+    <loc>https://pillowpotion.com/tsl2/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/2x_-Keto-1-1024x1024.webp</image:loc>
+      <image:title>PillowPotion KETO Formula - 2 Bottles</image:title>
+      <image:caption>Natural ketosis and fat burning support supplement</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/4-Products-4-1024x1024.webp</image:loc>
+      <image:title>PillowPotion KETO Formula - 4 Bottles</image:title>
+      <image:caption>Best value bundle for ketosis support</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/6-Products-3-1024x1024.webp</image:loc>
+      <image:title>PillowPotion KETO Formula - 6 Bottles</image:title>
+      <image:caption>Maximum savings bundle for long-term support</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/keto/beforeandafter.webp</image:loc>
+      <image:title>PillowPotion KETO Results</image:title>
+      <image:caption>Natural approach to support ketosis and metabolic health</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/pillowpotionlogo.webp</image:loc>
+      <image:title>PillowPotion Naturals Logo</image:title>
+      <image:caption>Premium natural health supplements</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Root Index (Redirect Page) -->
+  <url>
+    <loc>https://pillowpotion.com/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

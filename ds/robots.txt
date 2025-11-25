@@ -1,0 +1,18 @@
+# robots.txt for PillowPotion Keto VSL
+# https://keto.pillowpotion.com/
+
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /assets/
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://keto.pillowpotion.com/sitemap.xml
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1
+
+# Block specific user-agents if needed
+# User-agent: BadBot
+# Disallow: /

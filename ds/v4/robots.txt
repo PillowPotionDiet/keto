@@ -1,0 +1,53 @@
+# robots.txt for PillowPotion Keto DTC
+# https://keto.pillowpotion.com/dtc/
+# Last Updated: November 17, 2025
+
+# Allow all search engines to index the main landing page
+User-agent: *
+Allow: /
+Allow: /index.html
+
+# Disallow upsell and downsell pages from being indexed
+Disallow: /upsell.html
+Disallow: /downsell.html
+
+# Disallow checkout and payment processing pages
+Disallow: /shared/
+Disallow: /m/
+
+# Disallow admin and config directories
+Disallow: /cdn-cgi/
+
+# IMPORTANT: Allow CSS, JS, and images for proper page rendering
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /assets/
+Allow: /assets1/
+
+# Sitemap location
+Sitemap: https://keto.pillowpotion.com/dtc/sitemap.xml
+
+# Crawl-delay for respectful bots
+Crawl-delay: 1
+
+# User-agent specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Disallow: /upsell.html
+Disallow: /downsell.html
+
+User-agent: Bingbot
+Allow: /
+Disallow: /upsell.html
+Disallow: /downsell.html
+
+# Block aggressive scrapers
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Crawl-delay: 5

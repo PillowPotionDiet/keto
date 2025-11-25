@@ -1,0 +1,20 @@
+# robots.txt for PillowPotion Keto
+# https://keto.pillowpotion.com/dtc/
+
+User-agent: *
+Allow: /
+Disallow: /upsell1.html
+Disallow: /upsell2.html
+Disallow: /downsell.html
+Disallow: /shared/
+Disallow: /assets/
+Disallow: /img/
+Disallow: /css/
+Disallow: /js/
+Disallow: /m/
+
+# Crawl-delay for respectful bots
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://keto.pillowpotion.com/dtc/sitemap.xml

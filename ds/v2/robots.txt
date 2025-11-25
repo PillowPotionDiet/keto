@@ -1,0 +1,18 @@
+# robots.txt for PillowPotion KETO
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /checkout/
+Disallow: /cart/
+
+# Sitemap location
+Sitemap: https://pillowpotion.com/sitemap.xml
+
+# Crawl-delay for specific bots (optional)
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
+Crawl-delay: 0

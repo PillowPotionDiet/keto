@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Main Landing Page -->
+  <url>
+    <loc>https://keto.pillowpotion.com/dtc/</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://packages.pillowpotion.com/wp-content/uploads/2025/09/2x_-Keto-1-1024x1024.png</image:loc>
+      <image:title>PillowPotion Keto 2 Bottles</image:title>
+      <image:caption>PillowPotion Keto with BHB - Natural Weight Loss Supplement</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/keto/3bottles.webp</image:loc>
+      <image:title>PillowPotion Keto 3 Bottles Bundle</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://pillowpotion.com/offers/keto/1bottle.webp</image:loc>
+      <image:title>PillowPotion Keto Single Bottle</image:title>
+    </image:image>
+  </url>
+
+</urlset>

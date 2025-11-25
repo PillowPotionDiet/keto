@@ -1,0 +1,20 @@
+# robots.txt for PillowPotion Keto
+User-agent: *
+Allow: /
+
+# Block access to admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+# Allow access to CSS and JS files for proper rendering
+Allow: /css/
+Allow: /js/
+Allow: /website_code/go/css/
+Allow: /website_code/go/js/
+
+# Sitemap location
+Sitemap: https://pillowpotion.com/sitemap.xml
+
+# Crawl-delay (optional - adjust as needed)
+Crawl-delay: 1
