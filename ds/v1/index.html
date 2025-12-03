@@ -3,6 +3,13 @@
 <html lang="en">
 
 <head>
+    <script src="https://www.digistore24-scripts.com/service/digistore.js"></script>
+<script type="text/javascript">
+digistorePromocode( { "product_id": 652264, "adjust_all_urls": true, "adjust_domain": true } );
+</script>
+ <!-- Begin of Digistore24 Trusted Badge Code -->
+<script type="text/javascript" src="https://www.digistore24.com/trusted-badge/42584/WXAiCQQGYQmff4J/salespage"></script>
+<!-- End of Digistore24 Trusted Badge Code -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-J6G2Z93JJC"></script>
     <script>
@@ -845,11 +852,11 @@
 
         const product6 = "https://pillowpotion.com/offers/6-Products-3-1024x1024.webp"; // Corrected Path/Ext
 
-        const buy2 = "#";
+        const buy2 = "https://www.checkout-ds24.com/product/652264";
 
-        const buy4 = "#";
+        const buy4 = "https://www.checkout-ds24.com/product/652265";
 
-        const buy6 = "#";
+        const buy6 = "https://www.checkout-ds24.com/product/652266";
 
         // Corrected Ingredient Image Paths/Ext
 
@@ -1135,14 +1142,17 @@
                     bundleImg.src = product6;
                 }
 
-                // Check before accessing elements
-                const buy2Btn = document.querySelector(".buy2-btn");
-                const buy4Btn = document.querySelector(".buy4-btn");
-                const buy6Btn = document.querySelector(".buy6-btn");
+                // Check before accessing elements - select ALL buttons
+                const buy2Btns = document.querySelectorAll(".buy2-btn");
+                const buy4Btns = document.querySelectorAll(".buy4-btn");
+                const buy6Btns = document.querySelectorAll(".buy6-btn");
 
-                if (buy2Btn) buy2Btn.href = buy2;
-                if (buy4Btn) buy4Btn.href = buy4;
-                if (buy6Btn) buy6Btn.href = buy6;
+                // Assign URLs to all buy2 buttons
+                buy2Btns.forEach(btn => btn.href = buy2);
+                // Assign URLs to all buy4 buttons
+                buy4Btns.forEach(btn => btn.href = buy4);
+                // Assign URLs to all buy6 buttons
+                buy6Btns.forEach(btn => btn.href = buy6);
 
                 // Inject Ingredient images and names with null checks
                 const ingImg1El = document.getElementById('ing-img-1');
@@ -2886,9 +2896,11 @@
 
                     </nav>
 
-                    <div class="bioheal-footer-disclaimer" style="text-align: center; padding: 20px 15px; font-size: 12px; color: rgba(255, 255, 255, 0.8); max-width: 800px; margin: 0 auto; line-height: 1.6;">
+                    <div class="bioheal-footer-disclaimer"
+                        style="text-align: center; padding: 20px 15px; font-size: 12px; color: rgba(255, 255, 255, 0.8); max-width: 800px; margin: 0 auto; line-height: 1.6;">
 
-                        These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+                        These statements have not been evaluated by the Food and Drug Administration. This product is
+                        not intended to diagnose, treat, cure, or prevent any disease.
 
                     </div>
 
